@@ -1,0 +1,69 @@
+body{color:;}
+table{width:100%;
+border: 1px #ccc solid ;}
+table td{
+background-color:#eee;
+padding:15;}
+table thead td{
+background-color:green;
+color:#fff;
+font-weight:bold;
+text-align:center;
+ }
+
+
+input[type=text],select{
+width:95%;
+padding:10px 0px;
+margin:8px 40px;
+border: 1px solid #eee;
+border-radius:4px;
+}
+input[type=submit]{
+     width:100%;
+    padding:10px 10px ;
+    margin:10px ,0px;
+    border:none;
+border-radius:4px;
+    background-color:#4CAF50;
+}
+
+#d{
+background-color:#ccc;
+border:none;
+border-radius:4px;
+padding:20px;
+}
+input[type=submit]:hover{
+background-color:green;}
+
+
+button{
+            background-color: blue;
+            color: white ;
+            padding: 15px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        div#x{
+        background-color: grey;
+        display: inline-block;
+        }
+
+        div#y{
+            position: absolute;
+            background-color: lightgray;
+            padding: 20px;
+            display: none;
+
+        }
+        div#x:hover #y{
+            display: block;
+        }
+
+        div#y p{
+            color: black;
+            display: block;
+            padding: 12px 16px;
+        }
