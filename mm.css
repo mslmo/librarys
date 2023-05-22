@@ -1,69 +1,54 @@
-body{color:;}
-table{width:100%;
-border: 1px #ccc solid ;}
-table td{
-background-color:#eee;
-padding:15;}
-table thead td{
-background-color:green;
-color:#fff;
-font-weight:bold;
+body{margin:0px;}
+#h{background-color:#4caf50;
+padding:5px;
+text-align:center;}
+#h input[type=search]{
+     opacity:.7;
+border:none ;
+border-radius:4px;
+margin-left:70%;
+}
+#n{background:black;color:white;}
+#n a{color:white;
+padding:4px 25px;
+text-decoration:none;
+display:inline-block;}
+ a:hover{background:#ccc;}
+#s{color:red;
+   width:15%;
+float:left;
 text-align:center;
- }
-
-
-input[type=text],select{
-width:95%;
-padding:10px 0px;
-margin:8px 40px;
-border: 1px solid #eee;
-border-radius:4px;
+background:#ccc;
+padding-top:75px ;
+margin-top:0px;
 }
-input[type=submit]{
-     width:100%;
-    padding:10px 10px ;
-    margin:10px ,0px;
-    border:none;
-border-radius:4px;
-    background-color:#4CAF50;
-}
+#m{color:red;
+   width:70%;
+float:left;
+text-align:center;
+            background-color: #f2f2f2;
 
-#d{
+}
+#r{color:red;
+   width:15%;
+float:left;
+text-align:center;
 background-color:#ccc;
-border:none;
-border-radius:4px;
-padding:20px;
+padding-top:188px ;
+margin-top:-37px;}
+#r p{color:black;
+padding:42px; }
+#f{background:black;color:white;
+clear:left;
+   }
+#s a{text-decoration:none;
+	color:black;
+display:block;
+padding:42px;;
 }
-input[type=submit]:hover{
-background-color:green;}
+#s a:hover{background:#4caf50;;color:white;}
+img{opacity:.6;}
+img:hover{opacity:1;}
 
 
-button{
-            background-color: blue;
-            color: white ;
-            padding: 15px;
-            font-size: 16px;
-            border: none;
-            cursor: pointer;
-        }
-        div#x{
-        background-color: grey;
-        display: inline-block;
-        }
 
-        div#y{
-            position: absolute;
-            background-color: lightgray;
-            padding: 20px;
-            display: none;
-
-        }
-        div#x:hover #y{
-            display: block;
-        }
-
-        div#y p{
-            color: black;
-            display: block;
-            padding: 12px 16px;
-        }
